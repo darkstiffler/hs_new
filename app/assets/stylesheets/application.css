@@ -17,15 +17,23 @@ body {
 	bottom: 1px;
 }
 #foot p {
-	padding: 4px;
+	padding: 10px;
 }
- #top_bar h2 {
+#top_bar h2 {
  	margin-bottom: 50px;
  	height: 70px;
  	color: green;
  	background-color: black;
  }
- #box {
+#landing {
+	width: 700px;
+	padding: 30px;
+	margin: 0 auto;
+	background-color: rgba(91, 217, 101, .8);
+	border-radius: 20px;
+}
+
+#box {
  	background-color: rgba(91, 217, 101, .8);
  	border-radius: 20px;
  	width: 935px;
