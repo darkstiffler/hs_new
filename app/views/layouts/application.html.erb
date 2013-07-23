@@ -21,10 +21,16 @@
   </head>
 
   <body>
+    <div id="top_bar">
+      <h2> Welcome to Herb Sender *Beta* </h2>
+    </div>
     <%= yield %>
 
     <%= javascript_include_tag "application" %>
     <%# Insert the flash messages partial BELOW the noty scripts %>
     <%= render partial: "layouts/messages" %>
+    <div id="foot">
+      <p> &copy;All rights reserved. 2013 Ethan Stiffelman, Chris Elssner. </p>
+    </div>
   </body>
 </html>

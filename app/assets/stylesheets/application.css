@@ -3,3 +3,31 @@
  *= require_self
  *= require_tree .
  */
+body {
+ 	background-image: url(http://lanemedicalclinic.com/images/medical-marijuana-Lane-Medical-Clinic.jpg);
+ 	background-size: 900px;
+ 	background-repeat: no-repeat;
+ }
+#foot {
+	position: fixed;
+	height: 40px;
+	border-radius: 10px;
+	background-color: black;
+	color: green;
+	bottom: 1px;
+}
+#foot p {
+	padding: 4px;
+}
+ #top_bar h2 {
+ 	margin-bottom: 50px;
+ 	height: 70px;
+ 	color: green;
+ 	background-color: black;
+ }
+ #box {
+ 	background-color: rgba(91, 217, 101, .8);
+ 	border-radius: 20px;
+ 	width: 935px;
+ 	margin: 0 auto;
+ }
