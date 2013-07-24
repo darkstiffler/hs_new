@@ -12,4 +12,8 @@ class SiteController < ApplicationController
 
   def payment_page
   end
+
+  def browse
+  end
+
 end
