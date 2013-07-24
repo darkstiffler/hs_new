@@ -4,6 +4,7 @@
  *= require_tree .
  */
 body {
+	width: 1020px;
  	background-image: url(http://lanemedicalclinic.com/images/medical-marijuana-Lane-Medical-Clinic.jpg);
  	background-size: 900px;
  	background-repeat: no-repeat;
