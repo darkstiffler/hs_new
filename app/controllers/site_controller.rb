@@ -9,4 +9,7 @@ class SiteController < ApplicationController
 
   def terms
   end
+
+  def payment_page
+  end
 end
