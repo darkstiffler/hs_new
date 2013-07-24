@@ -15,5 +15,4 @@ class SiteController < ApplicationController
 
   def browse
   end
-  
 end
