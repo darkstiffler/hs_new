@@ -34,7 +34,10 @@ body {
 }
 #browse_map {
 	background-color: rgba(91, 217, 101, .8);
-	padding: 40px;
+	padding: 15px;
+	width: 555px;
+	border-radius: 20px;
+	margin: 0 auto;
 }
 #box {
  	background-color: rgba(91, 217, 101, .8);
