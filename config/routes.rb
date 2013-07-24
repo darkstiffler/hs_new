@@ -1,4 +1,4 @@
-Birchis::Application.routes.draw do
+hs_new::Application.routes.draw do
   get "privacy" => "site#privacy"
   get "terms" => "site#terms"
   get "payment_page" => "site#payment_page"
