@@ -13,7 +13,7 @@
   	<!-- Set the viewport width to device width for mobile -->
   	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  	<title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
+  	<title>Herb Sender</title>
 
   	<%= stylesheet_link_tag    "application", media: "all" %>
   	<%= javascript_include_tag "vendor/custom.modernizr" %>
@@ -30,7 +30,7 @@
     <%# Insert the flash messages partial BELOW the noty scripts %>
     <%= render partial: "layouts/messages" %>
     <div id="foot">
-      <p> &copy;All rights reserved. 2013 Ethan Stiffelman, Chris Elssner. </p>
+      <p> &copy; All rights reserved 2013 Ethan Stiffelman &amp; Chris Elssner. </p>
     </div>
   </body>
 </html>
