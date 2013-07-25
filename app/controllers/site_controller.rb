@@ -17,7 +17,7 @@ class SiteController < ApplicationController
   def browse
   end
 
-  def geolocate
+  def geoLocate
   end
 
 
