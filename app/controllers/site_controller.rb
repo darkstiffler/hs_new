@@ -1,6 +1,7 @@
 class SiteController < ApplicationController
   # before_action :is_authenticated, only: [ :index ]
   
+  # Basic actions for Site%Pages
   def index
   end
 
@@ -15,4 +16,9 @@ class SiteController < ApplicationController
 
   def browse
   end
+
+  def geoLocate
+  end
+
+
 end

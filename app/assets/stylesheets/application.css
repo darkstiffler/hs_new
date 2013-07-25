@@ -33,6 +33,9 @@ body {
 	background-color: rgba(91, 217, 101, .8);
 	border-radius: 20px;
 }
+#space {
+	height: 200px;
+}
 /*#browse_map {
 	background-color: rgba(91, 217, 101, .8);
 	padding: 15px;
