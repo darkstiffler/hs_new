@@ -49,6 +49,15 @@ body {
  	width: 935px;
  	margin: 0 auto;
  }
+ #browseMap {
+ 	height: 450px;
+ 	margin: 0 auto;
+ 	padding: 30px;
+ 	width: 610px;
+ 	background-color: rgba(91, 217, 101, .8); 
+ 	border-radius: 15px;
+
+ }
  #newUser {
 	background-color: rgba(91, 217, 101, .8);
 	border-radius: 15px;
