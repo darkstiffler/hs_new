@@ -49,3 +49,10 @@ body {
  	width: 935px;
  	margin: 0 auto;
  }
+ #newUser {
+	background-color: rgba(91, 217, 101, .8);
+	border-radius: 15px;
+	width: 765px;
+	padding: 50px;
+	margin: 0 auto;
+}
