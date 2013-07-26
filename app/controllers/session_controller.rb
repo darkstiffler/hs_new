@@ -13,6 +13,7 @@ class SessionController < ApplicationController
         user.save
         
         # Send the password reset email with the coded link
+        
         PasswordMailer.reset_email(user).deliver
       end
 

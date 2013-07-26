@@ -19,8 +19,9 @@ class UsersController < ApplicationController
 
   def create
     @user = User.create user_params
-    
-    if @user
+
+    # this will redirect the user    
+     if @user
       redirect_to users_path, status: 303
     else
       render :new

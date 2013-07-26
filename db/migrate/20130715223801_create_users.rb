@@ -2,7 +2,9 @@ class CreateUsers < ActiveRecord::Migration
   def change
     create_table :users do |t|
       t.string :email
-      t.string :salt
+      # password [salt]
+      t.string :salt   
+      # password_confirmation [fish]      :salt  == :fish  else  FALSE         
       t.string :fish
       t.string :code
       t.timestamp :expires_at

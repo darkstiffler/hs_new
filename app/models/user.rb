@@ -10,6 +10,7 @@ class User < ActiveRecord::Base
     user = User.find_by(email: email)
     
     if user
+        #  BCrypt is the engine used for randomization of the 'salt' 'fish' hashes.
       fish = BCrypt::Engine.hash_secret(password, user.salt)
       if user.fish == fish
         return user

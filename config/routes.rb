@@ -1,7 +1,11 @@
 Birchis::Application.routes.draw do
   get "privacy" => "site#privacy"
   get "terms" => "site#terms"
+
+  # bitcoin payment route {offsite}
+
   get "payment_page" => "site#payment_page"
+  
   get "browse" => "site#browse"
   get "geolocate" => "site#geolocate", as: :geo
   

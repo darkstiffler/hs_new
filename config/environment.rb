@@ -1,5 +1,5 @@
-# Load the Rails application.
+# this loads the Rails application.
 require File.expand_path('../application', __FILE__)
 
-# Initialize the Rails application.
+# this initializes the Rails application.
 Birchis::Application.initialize!

@@ -1,7 +1,9 @@
 class SiteController < ApplicationController
   # before_action :is_authenticated, only: [ :index ]
   
-  # Basic actions for Site%Pages
+  # Basic actions for Site'd Pages
+
+  
   def index
   end
 
