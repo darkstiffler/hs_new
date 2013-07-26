@@ -3,7 +3,7 @@ Birchis::Application.routes.draw do
   get "terms" => "site#terms"
   get "payment_page" => "site#payment_page"
   get "browse" => "site#browse"
-  get "geoLocate" => "site#geoLocate", as: :geo
+  get "geolocate" => "site#geolocate", as: :geo
   
   
   get "reset/:code" => "password#edit"
