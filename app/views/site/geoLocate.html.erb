@@ -1,1 +1,57 @@
 <!-- geolocate map code will go here -->
+<html>
+  <head>
+    <title>Geolocation</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <style>
+      #map-canvas {
+        height: 400px;
+        width: 550px;
+        margin: 0 auto;
+      }
+    </style>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAStL8g_ww8NJWhlqIs9o5ZISwQGJkYtC8&sensor=true"></script>
+    <script>
+var map;
+function initialize() {
+  var mapOptions = {
+    zoom: 10,
+     mapTypeId: google.maps.MapTypeId.ROADMAP
+  };
+  map = new google.maps.Map(document.getElementById('map-canvas'),
+      mapOptions);
+   // Try HTML5 geolocation
+  if(navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(function(position) {
+      var pos = new google.maps.LatLng(position.coords.latitude,
+                                       position.coords.longitude);
+
+      var infowindow = new google.maps.InfoWindow({
+        map: map,
+        position: pos,
+        //content: 'Location found using HTML5.'
+      });
+
+      map.setCenter(pos);
+    }, function() {
+      handleNoGeolocation(true);
+    });
+  } else {
+    // Browser doesn't support Geolocation
+    handleNoGeolocation(false);
+  }
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+
+    </script>
+  </head>
+  <body>
+     <div id="geolocate"> 
+      <div id="map-canvas"></div>
+    </div>
+  </body>
+</html>
+<div id="space">
+</div>
