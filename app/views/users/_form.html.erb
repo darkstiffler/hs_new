@@ -7,6 +7,14 @@
     <%= f.label :password_confirmation%>
     <%= f.password_field :password_confirmation %>
   </p>
+  <div class="row">
+    <formfield>
+      Are you a: <br> <br>
+      <input name="userIs" for="userIs" type="radio">Patient</input>
+
+      <input name="userIs" for="userIs" type="radio">Dispensary</input>
+    </formfield>
+  </div>
   <p>
     <%= f.submit %>
   </p>
