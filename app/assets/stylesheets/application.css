@@ -11,7 +11,7 @@ body {
  }
 #logout {
 	position: fixed;
-	bottom: 30px;
+	bottom: 130px;
 }
 #results {
 	background-color: rgba(91, 217, 101, .8);
@@ -24,14 +24,11 @@ body {
 }
 #foot {
 	position: fixed;
-	height: 40px;
 	border-radius: 10px;
 	background-color: black;
 	color: green;
-	bottom: 1px;
-}
-#foot p {
 	padding: 10px;
+	bottom: 1px;
 }
 #top_bar h2 {
  	margin-bottom: 20px;
