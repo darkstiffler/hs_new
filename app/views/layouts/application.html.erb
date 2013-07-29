@@ -26,6 +26,26 @@
     <div id="top_bar">
       <h2> Welcome to Herb Sender *Beta* </h2>
     </div>
+
+  <form>
+          <div class="row">
+            <div class="large-6 columns">
+              <div class="row collapse">
+                <div class="small-10 columns">
+                  <input type="text" placeholder="Enter your search...">
+                </div>
+                <div class="small-2 columns">
+
+                        <!--  search button:
+                              routes to: /geolocate! 
+                              method = "GET"            -->
+
+                  <a href="/geolocate" method="GET"class="button prefix">Search</a>
+                </div>
+              </div>
+            </div>
+           </div>
+    </form>
     <%= yield %>
 
     <%= javascript_include_tag "application" %>
