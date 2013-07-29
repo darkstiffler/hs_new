@@ -9,6 +9,19 @@ body {
  	background-size: 900px;
  	background-repeat: no-repeat;
  }
+#logout {
+	position: fixed;
+	bottom: 30px;
+}
+#results {
+	background-color: rgba(91, 217, 101, .8);
+	padding: 30px;
+	border-radius: 15px;
+	margin: 0 auto;
+	margin-top: 30px;
+	width: 500px;
+
+}
 #foot {
 	position: fixed;
 	height: 40px;
