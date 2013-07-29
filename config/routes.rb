@@ -8,6 +8,7 @@ Birchis::Application.routes.draw do
   
   get "browse" => "site#browse"
   get "geolocate" => "site#geolocate", as: :geo
+  get "menu" => "site#menu"
   
   
   get "reset/:code" => "password#edit"

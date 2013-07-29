@@ -22,5 +22,8 @@ class SiteController < ApplicationController
   def geolocate
   end
 
+  def menu
+  end
+
 
 end
