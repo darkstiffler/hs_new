@@ -49,6 +49,13 @@ body {
  	width: 935px;
  	margin: 0 auto;
  }
+ .kush {
+ 	height: 300px;
+ 	width: auto;
+ 	background-color: green;
+ 	padding: 10px;
+ 	border-radius: 5px;
+ }
  #browseMap {
  	height: 450px;
  	margin: 0 auto;
@@ -72,4 +79,11 @@ body {
  	width: 610px;
  	background-color: rgba(91, 217, 101, .8); 
  	border-radius: 15px;
+ }
+ #menu {
+ 	background-color: rgba(91, 217, 101, .8);
+ 	padding: 30px;
+ 	border-radius: 15px;
+ 	width: 600px;
+ 	margin: 0 auto;
  }
